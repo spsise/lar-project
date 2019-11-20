@@ -41,6 +41,31 @@
             
         </div>
 
+        <div class="card bg-transparent">
+            <div class="card-body text-white rounded" style="background: #eb3a2e">
+
+                <div class="position-relative p-3 pb-4">
+                    <div class="wrapper d-flex align-items-center">
+                        <div>
+                            {{-- <img src="https://adminlte.io/themes/AdminLTE/dist/img/user4-128x128.jpg" class="img-fluid img-thumbnail rounded-circle"> --}}
+                        </div>
+                        <div class="ml-2">
+                            <div class="h2">{{ $teste['nome'] }}</div>
+                            <div>{{ $teste['subtitulo'] }}</div>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+
+            
+        </div>
+
         <div>
             @foreach ($usuarios as $u)
                 
