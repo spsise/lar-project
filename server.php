@@ -1,5 +1,7 @@
 <?php
 
+// Adicionando um novo comentário
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
